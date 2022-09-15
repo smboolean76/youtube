@@ -1,0 +1,62 @@
+/*--------------
+    RESET
+---------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*--------------
+    COMMON
+---------------*/
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+body {
+    background-color: #171717;
+}
+
+/*--------------
+    TYPOGRAPHY
+---------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #aaa;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+/*--------------
+    MAIN
+---------------*/
+.col-video {
+    width: calc(25% - 20px);
+    /* background-color: red; */
+    float: left;
+    /* padding: 10px; */
+    margin: 0 10px;
+}
+.image-preview {
+    display: block;
+    width: 100%;
+}
+
+.avatar-channel {
+    float: left;
+    width: 40px;
+}
+.info-video {
+    width: calc(100% - 40px);
+    float: left;
+    padding-left: 15px;
+}
+.video-body {
+    padding: 10px 0;
+}
